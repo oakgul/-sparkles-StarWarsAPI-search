@@ -1,0 +1,20 @@
+.favorite {
+  float: left;
+  color: orangered;
+  margin-right: 5px;
+  margin-top: 4px;
+  /* display: none; */
+}
+.heartIcon:hover {
+  opacity: 0.1;
+  transition: 750ms;
+}
+.navbarDiv {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color:black !important;
+}
+.navText {
+  color: orange;
+  font-family: 'Patua One', cursive;
+}
