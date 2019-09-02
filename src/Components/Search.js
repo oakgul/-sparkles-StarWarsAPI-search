@@ -1,10 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 
-export default class Search extends React.Component {
+class Search extends React.Component {
 
-  
-  
     search = async () => {
       const char = document.getElementById('character');
       let val = char.value;
@@ -18,7 +16,6 @@ export default class Search extends React.Component {
       });
     }
   
-
   render() {
     return (
       <div className="row text-center">
@@ -36,3 +33,4 @@ export default class Search extends React.Component {
     )
   }
 }
+export default Search;

@@ -3,7 +3,7 @@ import icon from './sw.jpg';
 import heart from './heart.png';
 import '../App.css'
 
-export default function Navbar() {
+function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-dark bg-dark mb-3 navbarDiv">
@@ -18,3 +18,4 @@ export default function Navbar() {
     </div>
   )
 }
+export default Navbar;
